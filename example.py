@@ -63,7 +63,7 @@ def message_actions():
             trigger_id=message_action["trigger_id"],
             dialog={
                 "title": "Request a coffee",
-                "submit_label": "Submit Order",
+                "submit_label": "Submit",
                 "callback_id": user_id + "coffee_order_form",
                 "elements": [
                     {
